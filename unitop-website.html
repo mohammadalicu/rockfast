@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT UniTop - Innovative Computing</title>
+    <style>
+        :root {
+            --bg-color: #e0e5ec;
+            --text-color: #333;
+            --shadow-light: #ffffff;
+            --shadow-dark: #a3b1c6;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .neumorphic {
+            background: var(--bg-color);
+            border-radius: 50px;
+            box-shadow: 20px 20px 60px var(--shadow-dark),
+                        -20px -20px 60px var(--shadow-light);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            color: var(--text-color);
+            background: var(--bg-color);
+            border-radius: 50px;
+            box-shadow: 6px 6px 12px var(--shadow-dark),
+                        -6px -6px 12px var(--shadow-light);
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            box-shadow: inset 4px 4px 8px var(--shadow-dark),
+                        inset -4px -4px 8px var(--shadow-light);
+        }
+        
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .neumorphic {
+                padding: 20px;
+                border-radius: 30px;
+            }
+            
+            .btn {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="neumorphic">
+            <h1>BIT UniTop</h1>
+            <p>Revolutionizing Computing</p>
+        </header>
+        
+        <main>
+            <section id="tagline" class="neumorphic">
+                <h2>Experience Unrivaled Performance</h2>
+                <p>UniTop: Surpassing Expectations of a 60-70K Laptop!</p>
+            </section>
+            
+            <section id="cta" class="neumorphic">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVg-3Y7bPmbH2TUyW45rdvl6FVCPRjgbvbwlzlHSZHYu2Mkg/viewform?usp=sf_link" class="btn">Pre-order Now</a>
+            </section>
+            
+            <section id="meet-unitop" class="neumorphic">
+                <h2>Meet UniTop</h2>
+                <img src="/api/placeholder/600/400" alt="UniTop Computer">
+                <p>UniTop is the next generation of computing, designed to deliver unparalleled performance and durability.</p>
+            </section>
+            
+            <section id="mission" class="neumorphic">
+                <h2>Our Mission</h2>
+                <p>At BIT, we're committed to pushing the boundaries of what's possible in personal computing.</p>
+            </section>
+            
+            <section id="team" class="neumorphic">
+                <h2>Meet Us</h2>
+                <p>Our team of passionate engineers and designers are dedicated to creating the best computing experience for you.</p>
+            </section>
+            
+            <section id="reviews" class="neumorphic">
+                <h2>Reviews</h2>
+                <blockquote>"UniTop has transformed the way I work. It's incredibly fast and reliable." - John D.</blockquote>
+            </section>
+            
+            <section id="media" class="neumorphic">
+                <h2>Media Exposure and Buzz</h2>
+                <p>UniTop has been featured in leading tech publications and is creating waves in the industry.</p>
+            </section>
+            
+            <section id="model-b" class="neumorphic">
+                <h2>Model B</h2>
+                <h3>Price: 24799 BDT</h3>
+                <ul>
+                    <li>CPU: Intel i5 4th gen desktop processor, 3.6 GHz</li>
+                    <li>RAM: 12 GB</li>
+                    <li>SSD: 256 GB ultra-fast M.2 NVME SSD</li>
+                    <li>Display: 15.6'' HD+ LCD with multi-layered display protector</li>
+                    <li>Warranty: Two-year brand warranty</li>
+                </ul>
+            </section>
+            
+            <section id="contact" class="neumorphic">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Name" class="neumorphic">
+                    <input type="email" placeholder="Email" class="neumorphic">
+                    <textarea placeholder="Message" class="neumorphic"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer class="neumorphic">
+            <p>Address: [Your Address Here]</p>
+            <p>Trade License: [Your License Number]</p>
+        </footer>
+    </div>
+</body>
+</html>
